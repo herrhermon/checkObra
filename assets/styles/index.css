@@ -1,0 +1,15 @@
+p.projectTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333399;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#projTitle { /* Estilo aplicado via ID. Tem especificidade maior que uma class */
+    font-size: 18px;
+    font-weight: bold;
+    color:red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

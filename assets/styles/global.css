@@ -1,0 +1,17 @@
+body{ /* Estrutura basica de um CSS (Seletor { propriedade:valor ;*/
+    font: Tahoma, sans-serif;
+    background-color: aqua;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
