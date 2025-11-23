@@ -1,0 +1,12 @@
+input[type~="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+input[type~="checkbox"]:checked {
+    accent-color: green;
+}
+
+
+
+

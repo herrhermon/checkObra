@@ -1,12 +1,24 @@
 body{ /* Estrutura basica de um CSS (Seletor { propriedade:valor ;*/
     font: Tahoma, sans-serif;
     background-color: aqua;
+    border:  black 3px solid;
+    height: 100vh;
 }
 
 header {
     background-color: rgb(0, 0, 0);
     color: white;
-    text-align: center;
+    text-align: left;
+    border: blue 3px solid;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 50px;
 }
 
 footer {
@@ -14,4 +26,16 @@ footer {
     color: white;
     text-align: center;
     width: 100%;
+    text-decoration: none;
+    position: absolute;
+    bottom:0;
+}
+
+header a:link, footer a:link {
+    text-decoration: none;
+}
+
+header a:visited, footer a:visited {
+    color: red;
+    text-decoration: none;
 }

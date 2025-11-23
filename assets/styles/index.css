@@ -13,3 +13,23 @@ p.projectTitle {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+article{
+    padding: 10px;
+}
+
+article section{
+    margin-bottom: 50px;
+    font-weight: bold ;
+}
+
+
+
+.photoProject {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 160px;
+    height: 90px;
+    float: left;
+    margin-right: 10px; 
+}
