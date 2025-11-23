@@ -1,8 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui bordas e padding na largura e altura totais dos elementos */
+}
+
+html{
+    font-size: 62.5%; /*Cria a base 10 de tamanho de fonte (1rem = 10px)*/
+}
+
+
 body{ /* Estrutura basica de um CSS (Seletor { propriedade:valor ;*/
     font: Tahoma, sans-serif;
+    font-size: 1.6rem; /*16px*/
     background-color: aqua;
     border:  black 3px solid;
     height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 header {
@@ -14,12 +30,31 @@ header {
 
 header ul{
     list-style-type: none;
+    display: flex
 }
 
-header ul li{
+header nav ul li{
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 5rem;
 }
+
+
+
+header a:link, footer a:link {
+    text-decoration: none;
+}
+
+header a:visited, footer a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+div.content-footer {
+    position: relative;
+    min-height: 50px; 
+    display: flex;/* Altura mínima para o footer */
+}
+
 
 footer {
     background-color: red;
@@ -31,11 +66,3 @@ footer {
     bottom:0;
 }
 
-header a:link, footer a:link {
-    text-decoration: none;
-}
-
-header a:visited, footer a:visited {
-    color: red;
-    text-decoration: none;
-}

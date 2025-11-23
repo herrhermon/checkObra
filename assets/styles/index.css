@@ -1,35 +1,53 @@
+main{
+    width: 100vw;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #293122;
+    border-radius: 8px;
+    flex: auto; /*Usei para permitir que o container main preencha o espaço disponível entre o header e o footer*/
+}
+
+main article{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: tomato;
+}
+
 p.projectTitle {
     font-size: 18px;
     font-weight: bold;
     color: #333399;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-#projTitle { /* Estilo aplicado via ID. Tem especificidade maior que uma class */
-    font-size: 18px;
-    font-weight: bold;
-    color:red;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 article{
-    padding: 10px;
+    padding: 1rem;
 }
 
 article section{
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     font-weight: bold ;
 }
 
 
 
+div.description-project-container {
+    height: 10%;
+    display: flex;
+    background-color: khaki;
+}
+
+div.description-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
 .photoProject {
     border: 2px solid #000000;
     border-radius: 5px;
-    width: 160px;
-    height: 90px;
-    float: left;
+    width: 30%;
+    height: 100%;
     margin-right: 10px; 
 }
