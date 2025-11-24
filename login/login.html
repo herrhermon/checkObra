@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../assets/styles/global.css" >
+    <link rel="stylesheet" type="text/css" href="../assets/styles/login.css" >
 </head>
 <body>
     <header> 
@@ -17,16 +18,21 @@
             </ul>
         </nav>
     </header>
-    <article>
-        <h1>LOGIN</h1>
-        <form action="programa" method="post">
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" name="username" required><br><br>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required><br><br>
-            <input type="submit" value="Entrar">
-        </form>
-    </article>
+    <div class="login-container">
+         <article class="login-container">
+            <h1>LOGIN</h1>
+            <form action="programa" method="post">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <input type="submit" value="Entrar">
+            </form>
+            <div>Esqueci a senha</div>
+            <div>Cadastrar</div>
+        </article>
+    </div>
+   
     <footer>
         <div>Desenvolvido por Gughadev</div>
         <div>Direitos Autorais</div>
