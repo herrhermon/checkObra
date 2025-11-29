@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="../assets/styles/global.css" >
+    <link rel="stylesheet" type="text/css" href="../assets/styles/login.css" >
+</head>
+<body>
+        <header> 
+        <nav>
+           <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li>Projetos</li>
+                <li>buscar</li>
+                <li><a href="../login/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="login-container">
+         <article class="login-container">
+            <h1>CRIAR NOVA CONTA</h1>
+            <form class ="form-group" action="programa" method="post">
+                <fieldset class="dados-pessoais">
+                    <legend>Dados Pessoais</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="surname">Sobrenome:</label>
+                    <input type="text" id="surname" name="surname" required><br><br>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required><br><br>
+                    <label for="dob">Data de Nascimento:</label>
+                    <input type="date" id="dob" name="dob" required><br><br>
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select><br><br>
+                </fieldset> 
+                <fieldset class="adress">
+                    <legend>Endereço</legend> 
+                    <label for="street">Rua:</label>
+                    <input type="text" id="street" name="street" required><br><br>
+                    <label for="city">Cidade:</label>
+                    <input type="text" id="city" name="city" required><br><br>
+                    <label for="zip">CEP:</label>
+                    <input type="text" id="zip" name="zip" required><br><br>
+                </fieldset>
+                <fieldset class="user">
+                    <legend>Dados de Acesso</legend>
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="photo">Foto de Perfil </label>
+                    <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <label for="password2">Confirme a Senha:</label>
+                    <input type="password" id="password2" name="password2" required><br><br>
+                </fieldset>
+                <fieldset class="send-info">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Aceito os termos e condições</label><br><br>
+                    <input type="submit" value="Cadastrar">
+                </fieldset>
+            </form>
+        </article>
+    </div>
+   
+    <footer>
+        <div>Desenvolvido por Gughadev</div>
+        <div>Direitos Autorais</div>
+    </footer>
+</body>
+</html>

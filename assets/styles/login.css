@@ -3,17 +3,62 @@ div.login-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f0f0f0;
 }
 
 
 article.login-container {
-    width: 300px;
+    width: 50vw;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-
+   display: flex;
+   flex-direction: column;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-pessoais {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.adress{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    background-color: #8b7f7f;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 0px 0px 10px 0px;
+}
+
