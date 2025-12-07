@@ -12,13 +12,17 @@ html{
 body{ /* Estrutura basica de um CSS (Seletor { propriedade:valor ;*/
     font: Tahoma, sans-serif;
     font-size: 1.6rem; /*16px*/
-    background-color: aqua;
     border:  black 3px solid;
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
